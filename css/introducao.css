@@ -1,0 +1,133 @@
+/* MAIN */
+
+.intro-apresentacao {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.intro-apresentacao .apresentacao h1 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.intro-apresentacao .apresentacao h1 span {
+  color: #fff30f;
+}
+
+.intro-apresentacao .apresentacao p {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin-top: 10px;
+  width: 60ch;
+  margin-bottom: 30px;
+}
+
+.intro-botao {
+  background: #fff30f;
+  color: #1b1d20;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #fff30f;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.intro-botao .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #fff30f;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.intro-botao:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.intro-botao .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  background: #ffffff;
+  color: #fff30f;
+}
+
+.intro-botao:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.intro-botao:active .icon {
+  transform: scale(0.95);
+}
+
+.apresentacao-imagem img {
+  margin-left: 100px;
+}
+
+/* MOTIVAÇÃO */
+
+.intro-frase {
+  margin-top: 50px;
+}
+
+.titulo-frase {
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.frase {
+  text-align: center;
+  border: solid 1px #e40003;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.frase {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #272b30;
+  box-shadow: 0 0 1em -0.6em;
+}
+
+.frase i,
+.autor {
+  background-color: #272b30;
+}
+
+.frase li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.frase .autor {
+  font-size: 1rem;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 80px;
+  background: #0f1012;
+  margin-top: 80px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 6px 6px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.intro-footer .redes {
+  display: flex;
+  gap: 20px;
+}
