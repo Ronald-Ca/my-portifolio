@@ -13,6 +13,11 @@ footer {
   padding-right: 40px;
 }
 
+footer span {
+  margin: 0;
+  padding: 0;
+}
+
 .intro-footer .redes {
   display: flex;
   gap: 20px;
