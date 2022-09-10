@@ -1,0 +1,59 @@
+.imagem-sobre img {
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sobre {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+#sobre .conteudo-sobre p {
+  width: 80ch;
+}
+
+.sobre-formacao {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.formacao-conteudo {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #272b30;
+}
+
+.formacao-conteudo p {
+  width: 50ch;
+  padding-left: 30px;
+  padding-right: -30px;
+}
+
+.formacao-conteudo span {
+  padding-left: 30px;
+  padding-right: -30px;
+}
+
+.formacao-conteudo h3 {
+  padding-left: 30px;
+  padding-right: -30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#texto {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}

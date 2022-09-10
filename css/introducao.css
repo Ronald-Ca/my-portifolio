@@ -6,12 +6,6 @@
   align-items: center;
 }
 
-.intro-apresentacao .apresentacao h1 {
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 2.8rem;
-  font-weight: 600;
-}
-
 .intro-apresentacao .apresentacao h1 span {
   color: #fff30f;
 }
@@ -27,7 +21,12 @@
   margin-bottom: 30px;
 }
 
+.botao-content {
+  display: inline-block;
+}
+
 .intro-botao {
+  max-width: max-content;
   background: #fff30f;
   color: #1b1d20;
   font-family: "Roboto Mono", sans-serif;
@@ -83,7 +82,7 @@
 }
 
 .apresentacao-imagem img {
-  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* MOTIVAÇÃO */
@@ -102,23 +101,15 @@
 
 .frase {
   text-align: center;
-  border: solid 1px #e40003;
   font-size: 1.1rem;
   font-weight: 300;
-}
-
-.frase {
   padding-top: 30px;
   padding-bottom: 10px;
   border-radius: 30px;
   border: none;
   background-color: #272b30;
   box-shadow: 0 0 1em -0.6em;
-}
-
-.frase i,
-.autor {
-  background-color: #272b30;
+  margin-bottom: 150px;
 }
 
 .frase li {

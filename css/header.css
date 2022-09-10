@@ -22,9 +22,6 @@
 .menu-intro li a {
   display: flex;
   align-items: center;
-}
-
-.menu-intro li a {
   gap: 5px;
   justify-content: center;
   min-width: 80px;
@@ -32,7 +29,7 @@
   position: relative;
 }
 
-.menu-intro li a::after {
+/* .menu-intro li a::after {
   content: "";
   display: block;
   bottom: 0px;
@@ -53,4 +50,4 @@
 
 .menu-intro li a:hover::after {
   width: 100%;
-}
+} */

@@ -10,7 +10,13 @@
 </head>
 
 <body>
+  <section>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+  </section>
+
   <header>
+
     <nav class="intro container">
       <img class="intro-logo" src="./img/logos/Design_sem_nome__1_-removebg-preview.png" width="250" height="80" alt="">
       <ul class="menu-intro">
@@ -25,11 +31,16 @@
   </header>
 
   <main>
+
     <div class="intro-apresentacao container">
+      <div class="apresentacao-imagem">
+        <img src="./img/intro-img.svg" width="400" height="500" alt="Imagem decorativa">
+      </div>
+
       <div class="apresentacao">
-        <h1>Olá, eu me chamo <span>Ronald</span></h1>
+        <h1 class="titulo-geral">Olá, eu me chamo <span>Ronald Camargo</span></h1>
         <p>Um jovem de 21 anos que vem se encantando pelo mundo do <span>Desenvolvimento Web.</p>
-        <a href="./sobre.html">
+        <a class="botao-content" href="./sobre.html">
           <button class="intro-botao"> Sobre mim
             <div class="icon">
               <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -41,9 +52,7 @@
         </a>
       </div>
 
-      <div class="apresentacao-imagem">
-        <img src="./img/intro-img.svg" width="400" height="500" alt="Imagem decorativa">
-      </div>
+
     </div>
 
     <section class="intro-frase container">
@@ -62,13 +71,17 @@
   </main>
 
   <footer class="intro-footer">
-    <p> © Direitos reservados por Ronal Camargo - 2022</p>
-    <ul class="redes">
-      <li><a href=""><img src="./img/icones/github.svg" width="24" height="24" alt=""></a></li>
+
+    <p class="opacidade"> © Direitos reservados por Ronal Camargo - 2022</p>
+    <ul class="redes opacidade">
+      <li><a href="https://github.com/Ronald-Ca" target="_blank"><img src="./img/icones/github.svg" width="24" height="24" alt=""></a></li>
       <li><a href=""><img src="./img/icones/instagram.svg" width="24" height="24" alt=""></a></li>
       <li><a href=""><img src="./img/icones/linkedin.svg" width="24" height="24" alt=""></a></li>
     </ul>
+
   </footer>
+
+  <script src="./js/slide.js"></script>
 </body>
 
 </html>

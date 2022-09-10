@@ -1,4 +1,8 @@
+@import "./sobre.css";
 @import "./global.css";
+@import "./background.css";
 @import "./header.css";
 @import "./introducao.css";
+@import "./projetos.css";
+@import "./carrosel.css";
 @import "./footer.css";
