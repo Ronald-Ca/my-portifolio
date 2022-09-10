@@ -122,3 +122,26 @@
   font-size: 1rem;
   font-weight: 600;
 }
+
+.bitcoin h4 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.valor-bitcoin {
+  background: #fff30f;
+  padding: 4px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #1b1d20;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
