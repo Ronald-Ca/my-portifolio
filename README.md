@@ -4,7 +4,7 @@
 
 Projeto construído por mim baseado nos conhecimentos adquiridos ao longo dos projetos anteriores.
 
-[🔗 Clique aqui para acessar a página](https://ronald-ca.github.io/portifolio/)
+[🔗 Clique aqui para acessar a página](https://ronald-ca.github.io/my-portifolio/)
 
 ## 📌 Tecnologias
 
