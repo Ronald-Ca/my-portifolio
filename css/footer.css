@@ -16,3 +16,11 @@
   display: flex;
   gap: 20px;
 }
+
+.intro-footer .redes li {
+  transition: 0.4s;
+}
+
+.intro-footer .redes li:hover {
+  transform: scale(1.2);
+}

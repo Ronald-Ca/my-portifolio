@@ -29,7 +29,7 @@
   position: relative;
 }
 
-/* .menu-intro li a::after {
+.menu-intro li a::after {
   content: "";
   display: block;
   bottom: 0px;
@@ -39,15 +39,9 @@
   margin-top: 4px;
   transition: 0.4s;
   position: absolute;
-  background-color: #e40003;
-  background-image: linear-gradient(
-    270deg,
-    #e40003 0%,
-    #fff30f 46%,
-    #0cff00 100%
-  );
+  background-color: #fff30f;
 }
 
 .menu-intro li a:hover::after {
   width: 100%;
-} */
+}
